@@ -3,25 +3,25 @@
 	url = https://github.com/tpope/vim-pathogen.git
 [submodule "vim/vim/bundle/ack.vim"]
 	path = vim/vim/bundle/ack.vim
-	url = https://github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim/vim/bundle/ctrlp.vim"]
 	path = vim/vim/bundle/ctrlp.vim
-	url = https://github.com:kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "vim/vim/bundle/nerdtree"]
 	path = vim/vim/bundle/nerdtree
-	url = https://github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/vim/bundle/tComment"]
 	path = vim/vim/bundle/tComment
-	url = https://github.com:vim-scripts/tComment.git
+	url = https://github.com/vim-scripts/tComment.git
 [submodule "vim/vim/bundle/vim-colors-solarized"]
 	path = vim/vim/bundle/vim-colors-solarized
-	url = https://github.com:altercation/vim-colors-solarized.git
+	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "vim/vim/bundle/vim-expand-region"]
 	path = vim/vim/bundle/vim-expand-region
-	url = https://github.com:terryma/vim-expand-region.git
+	url = https://github.com/terryma/vim-expand-region.git
 [submodule "vim/vim/bundle/vim-multiple-cursors"]
 	path = vim/vim/bundle/vim-multiple-cursors
-	url = https://github.com:terryma/vim-multiple-cursors.git
+	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "vim/vim/bundle/vim-sensible"]
 	path = vim/vim/bundle/vim-sensible
-	url = https://github.com:tpope/vim-sensible.git
+	url = https://github.com/tpope/vim-sensible.git
