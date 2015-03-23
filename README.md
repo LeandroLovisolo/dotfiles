@@ -42,13 +42,13 @@ cd into the directory where you want to keep your submodule, then run:
 git submodule add <repository url> <directory name>
 ```
 
-This saves the submodule into <directory name> and adds the required entry
-to .gitmodules.
+This saves the submodule into the specified directory and adds the required
+entry to .gitmodules.
 
 For example, you can run the following command to install the vim-fugitive
 plugin:
 
 ```
-git submodule add https://github.com/tpope/vim-fugitive.git vim-fugitive.vim
+git submodule add https://github.com/tpope/vim-fugitive.git vim/vim/bundle/vim-fugitive.vim
 ```
 
