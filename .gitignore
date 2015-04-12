@@ -2,3 +2,6 @@
 vim/vim/backup/*
 vim/vim/swap/*
 vim/vim/undo/*
+
+# i3
+i3/.external-monitor-active

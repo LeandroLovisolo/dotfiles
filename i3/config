@@ -49,6 +49,9 @@ bindsym $mod+Shift+q kill
 # toggle title bar
 bindsym $mod+t exec ~/.i3/toggle-title-bar.py
 
+# toggle external monitor
+bindsym $mod+m exec ~/.i3/toggle-external-monitor.py
+
 # lock screen
 bindsym $mod+l exec i3lock -d
 
