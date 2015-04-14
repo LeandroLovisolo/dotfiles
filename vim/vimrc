@@ -83,6 +83,14 @@ if has('gui_running')
   set guioptions -=e
 endif
 
+" Make ctrlp root itself at the first directory with a .ctrlp file it finds
+" when traversing up the current path (see
+" https://coderwall.com/p/5xv7sq/ctrlp-root-markers)
+let g:ctrlp_root_markers = ['.ctrlp']
+
+" Make ctrlp ignore directories with common name patterns
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|tmp'
+
 " Toggle comments (tComment plugin)
 nmap , gcc
 vmap , gc
