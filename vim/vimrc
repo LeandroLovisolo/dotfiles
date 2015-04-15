@@ -94,3 +94,6 @@ let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|tmp'
 " Toggle comments (tComment plugin)
 nmap , gcc
 vmap , gc
+
+" Toggle NERDTree
+nmap <F2> :NERDTreeToggle<CR>
