@@ -33,6 +33,12 @@ focus_follows_mouse no
 # https://faq.i3wm.org/question/4217/how-to-disable-screensavermonitor-standby-when-fullscreen/?answer=4264#post-id-4264
 exec_always --no-startup-id ~/.i3/disable-standby-fs.py
 
+# GNOME
+exec_always --no-startup-id /usr/libexec/gnome-settings-daemon
+exec_always --no-startup-id gnome-screensaver
+exec_always --no-startup-id nm-applet
+
+
 # set wallpaper
 exec --no-startup-id feh --bg-scale ~/Etcetera/Wallpapers/fEN54KW.jpg
 
@@ -49,11 +55,12 @@ bindsym $mod+Shift+q kill
 # toggle title bar
 bindsym $mod+t exec ~/.i3/toggle-title-bar.py
 
-# toggle external monitor
+# toggle laptop/external monitor
 bindsym $mod+m exec ~/.i3/toggle-external-monitor.py
+bindsym $mod+Control+m exec ~/.i3/toggle-laptop-monitor.py
 
 # lock screen
-bindsym $mod+l exec i3lock -d
+bindsym $mod+l exec gnome-screensaver-command -l
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec --no-startup-id dmenu_run
@@ -79,8 +86,8 @@ bindsym XF86AudioPrev  exec playerctl previous
 bindsym $mod+z         exec playerctl previous
 
 # move workspaces across monitors
-bindsym $mod+Control+Shift+Left  move workspace to output LVDS
-bindsym $mod+Control+Shift+Right move workspace to output VGA-0
+bindsym $mod+Control+Shift+Left  move workspace to output left
+bindsym $mod+Control+Shift+Right move workspace to output right
 
 # change focus
 bindsym $mod+Left focus left
@@ -186,8 +193,8 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        output LVDS
-        output VGA-0
+        output eDP1
+        output VGA1
         status_command i3status --config ~/.i3/i3status.conf
-        tray_output LVDS
+        tray_output eDP1
 }
