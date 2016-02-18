@@ -11,6 +11,7 @@ TMP_FILE = os.path.expanduser(TMP_FILE)
 
 def turn_on():
   call(['xrandr', '--output', EXTERNAL_DISPLAY, '--auto',
+  # call(['xrandr', '--output', EXTERNAL_DISPLAY, '--mode', '1680x1050',
         '--right-of', LAPTOP_DISPLAY])
 
 def turn_off():
