@@ -25,3 +25,9 @@
 [submodule "vim/vim/bundle/vim-sensible"]
 	path = vim/vim/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "vim/vim/bundle/vim-mustache-handlebars"]
+	path = vim/vim/bundle/vim-mustache-handlebars
+	url = git://github.com/mustache/vim-mustache-handlebars.git
+[submodule "vim/vim/bundle/vim-eunuch"]
+	path = vim/vim/bundle/vim-eunuch
+	url = git://github.com/tpope/vim-eunuch.git

@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
-LAPTOP_DISPLAY = 'eDP1'
-EXTERNAL_DISPLAY = 'VGA1'
+LAPTOP_DISPLAY = 'LVDS-1'
+EXTERNAL_DISPLAY = 'VGA-1'
 TMP_FILE = '~/.i3/.laptop-monitor-active'
 
 import os

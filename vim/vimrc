@@ -89,7 +89,7 @@ endif
 let g:ctrlp_root_markers = ['.ctrlp']
 
 " Make ctrlp ignore directories with common name patterns
-let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|tmp'
+let g:ctrlp_custom_ignore = 'node_modules\|bower_components\|dist\|tmp'
 
 " Toggle comments (tComment plugin)
 nmap , gcc
@@ -97,3 +97,6 @@ vmap , gc
 
 " Toggle NERDTree
 nmap <F2> :NERDTreeToggle<CR>
+
+" Find current file in NERDTree
+nmap <F3> :NERDTreeFind<CR>
